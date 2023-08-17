@@ -1,0 +1,79 @@
+/* Your code goes here */
+
+/* Define default fonts */
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+  }
+  
+  /* Styling for the heading */
+  h1 {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+  }
+  
+  /* Container class */
+  .container {
+    margin: 5px;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  /* Styling for each offer */
+  .offer {
+    display: inline-block;
+    width: 400px;
+    margin: 4px;
+    text-align: center;
+    border: 1px solid #cccccc;
+  }
+  
+  /* Styling for offer titles */
+  .offerTitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #00b3b3;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  /* Styling for offer contents */
+  .offerContents {
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
+  /* Styling for all tables */
+  table {
+    width: 100%;
+    background-color: #ffffff;
+    border-spacing: 0;
+  }
+  
+  /* Styling for header cells */
+  th {
+    font-size: 12px;
+    font-weight: bold;
+    color: #777777;
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  /* Styling for data cells */
+  td {
+    color: #444444;
+    font-weight: lighter;
+    padding: 20px 10px;
+    margin: 0;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  /* Styling for finalValue class */
+  .finalValue {
+    font-weight: bold;
+    color: #2222ff;
+  }
